@@ -34,7 +34,6 @@ Saat push pertama, sistem akan otomatis:
 -   ⚡ Build frontend (React/Vite)
 -   🐍 Setup backend Python
 -   ⚙️ Generate `.env`
--   🗄 Auto-create PostgreSQL database
 -   🌐 Deploy Nginx + Cloudflared tunnel
 -   🚀 Run Uvicorn service
 
@@ -53,6 +52,7 @@ ssh.bat
 
 ``` bash
 brew install cloudflared (via terminal)
+chmod +x ssh.sh
 ./ssh.sh
 ```
 
