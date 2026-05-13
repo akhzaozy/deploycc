@@ -66,14 +66,31 @@ Credential SSH akan muncul di:
 
 ------------------------------------------------------------------------
 
-## 🐍 6. Setup Backend Environment
+## 🐍 6. Setup Backend Environment 
+
+difolder repostory bukan backend/frontend
 
 ``` bash
-python3.12 -m venv venv --clear
+# masuk ke folder project
+ssh sudah otomatis didalam folder project
 
-venv/bin/pip install --upgrade pip
-venv/bin/pip install -r backend/requirements.txt
-venv/bin/pip install uvicorn[standard]
+# (opsional) hapus venv lama kalau rusak
+rm -rf venv
+
+# buat venv baru
+python3 -m venv venv
+
+# aktifkan venv
+source venv/bin/activate
+
+# upgrade pip
+pip install --upgrade pip
+
+# install dependencies project
+pip install -r backend/requirements.txt
+
+# install uvicorn + dependencies lengkap
+pip install "uvicorn[standard]"
 ```
 
 ------------------------------------------------------------------------
