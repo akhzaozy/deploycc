@@ -1,7 +1,7 @@
 # 🚀 DeployCC --- Deployment Guide
 
-> Panduan lengkap deployment DeployCC (CI/CD + PostgreSQL +
-> Cloudflared + Uvicorn)
+!!!!! DIWAJIBKAN UNTUK GANTIAN MENDEPLOY
+jika error segera hubungi asdos
 
 ------------------------------------------------------------------------
 
